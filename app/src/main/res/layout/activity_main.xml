@@ -1,6 +1,7 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -10,4 +11,15 @@
     android:id="@+id/mainLayout"
     android:background="#FFDD005C" >
 
-</RelativeLayout>
+    <fragment
+        android:name="net.chi6rag.android.fragmenttest.FragmentA"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <fragment
+        android:id="@+id/fragmentB"
+        android:name="net.chi6rag.android.fragmenttest.FragmentB"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+</LinearLayout>

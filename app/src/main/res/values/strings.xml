@@ -3,4 +3,25 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="chinese">Chinese</string>
+    <string name="indian">Indian</string>
+
+    <string-array name="indian">
+        <item>Dal Makhni</item>
+        <item>Shahi Paneer</item>
+        <item>Malai Kofta</item>
+    </string-array>
+
+    <string-array name="chinese">
+        <item>@string/chinese</item>
+        <item>Noodles</item>
+        <item>Manchurian</item>
+        <item>Chilly Paneer</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>@array/indian</item>
+        <item>@array/chinese</item>
+    </string-array>
 </resources>
