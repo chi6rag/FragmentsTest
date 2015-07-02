@@ -16,6 +16,7 @@ public class MainActivity extends Activity implements Communicator {
         setContentView(R.layout.activity_main);
     }
 
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     @Override
     public void respond(int i) {
         FragmentManager fragmentManager = getFragmentManager();

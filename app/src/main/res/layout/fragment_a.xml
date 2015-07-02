@@ -3,14 +3,9 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:text="Increase"
-        android:id="@+id/counterButton"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:padding="10dp"
-        android:layout_margin="10dp"
-        android:textColor="#b00"
-        android:background="#FFF" />
+    <ListView
+        android:id="@+id/fragmentAList"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
 
 </LinearLayout>

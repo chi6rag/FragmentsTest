@@ -4,24 +4,27 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
-    <string name="chinese">Chinese</string>
-    <string name="indian">Indian</string>
-
-    <string-array name="indian">
-        <item>Dal Makhni</item>
-        <item>Shahi Paneer</item>
-        <item>Malai Kofta</item>
+    <string-array name="titles">
+        <item>Building Your First App</item>
+        <item>Adding the Action Bar</item>
+        <item>Supporting Different Devices</item>
+        <item>Managing the Activity Lifecycle</item>
     </string-array>
 
-    <string-array name="chinese">
-        <item>@string/chinese</item>
-        <item>Noodles</item>
-        <item>Manchurian</item>
-        <item>Chilly Paneer</item>
-    </string-array>
+    <string-array name="description">
+        <item>Welcome to Android application development! This class teaches you how to build your
+            first Android app. You\’ll learn how to create an Android project and run a debuggable
+            version of the app. You\'ll also learn some fundamentals of Android app design, including
+            how to build a simple user interface and handle user input.</item>
 
-    <string-array name="categories">
-        <item>@array/indian</item>
-        <item>@array/chinese</item>
+        <item>The action bar is one of the most important design elements you can implement for your
+            app\'s activities. It provides several user interface features that make your app
+            immediately familiar to users by offering consistency between other Android apps. </item>
+
+        <item>Android devices come in many shapes and sizes all around the world. With a wide range
+            of device types, you have an opportunity to reach a huge audience with your app. </item>
+
+        <item>As a user navigates through, out of, and back to your app, the Activity instances in
+            your app transition between different states in their lifecycle.</item>
     </string-array>
 </resources>
